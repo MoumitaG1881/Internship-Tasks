@@ -13,7 +13,7 @@ C. Evaluating the maximum length of both English and French phrases.\
    Significance: This step will determine the lengths of the sequences that will be the input to and output from the model.\
 D. Fitting Tokenizer to the phrases and generating padded sequences\
 E. Determining vocabulary length\
-F. Adding layers\
+F. Adding layers
    Brief description:
    * Embedding layer followed by an LSTM layer: To encode English phrases input to the model.
    * RepeatVector layer: To reshape the output from the first LSTM layer that acts as an input to the second LSTM layer.
