@@ -15,14 +15,14 @@ D. Fitting Tokenizer to the phrases and generating padded sequences\
 E. Determining vocabulary length\
 F. Adding layers\
    Brief description:
-   * Embedding layer followed by an LSTM layer: To encode English phrases input to the model.\
-   * RepeatVector layer: To reshape the output from the first LSTM layer that acts as an input to the second LSTM layer.\
+   * Embedding layer followed by an LSTM layer: To encode English phrases input to the model.
+   * RepeatVector layer: To reshape the output from the first LSTM layer that acts as an input to the second LSTM layer.
    * Second LSTM layer: To decode the phrases into their French equivalents (as the task is to translate English to 
-     French).\ 
-   * Softmax classification layer: It is the final layer that gives probabilities for each word in the French vocabulary.\
+     French).
+   * Softmax classification layer: It is the final layer that gives probabilities for each word in the French vocabulary.
    * TimeDistributed wrapper: To ensures that the built model provides a set of probabilities for each token (word) in the 
-     output.\
-   Note: Adam optimizer is used in this task.\
+     output.
+     Note: Adam optimizer is used in this task.
 G. Training of the model\
    Description: Here the dataset is split into 80:20 ratio in the training and test sets. Total 50 epochs have been 
    considered with batch size set to 50. Note: If the accuracy fails to improve for five consecutive epochs, the training 
