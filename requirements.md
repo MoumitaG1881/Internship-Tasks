@@ -1,8 +1,8 @@
-#Requirement for developing the model for Fine Tune Task (Language Translation):\
+Requirement for developing the model for Fine Tune Task (Language Translation):\
 
-IDE used: Jupyter Notebook\
+IDE used: Jupyter Notebook
 
-Details of Jupyter Notebook:\
+Details of Jupyter Notebook:
 
 IPython          : 8.27.0
 ipykernel        : 6.28.0
@@ -16,13 +16,13 @@ nbconvert        : 7.16.4
 nbformat         : 5.10.4
 notebook         : 7.2.2
 qtconsole        : 5.5.1
-traitlets        : 5.14.3\
+traitlets        : 5.14.3
 
 
-Python and Related Libraries:\
-Numpy, Pandas, Tensorflow (and Keras), Seaborn, Matplotlib.\
+Python and Related Libraries:
+Numpy, Pandas, Tensorflow (and Keras), Seaborn, Matplotlib.
 
-Vesrion Used:\
+Vesrion Used:
 
 Python: 3.12.3
 Numpy:  1.26.4
@@ -32,20 +32,20 @@ Keras:  3.8.0
 Seaborn:  0.13.2
 Matplotlib:  3.9.2\
 
-System Details:\
+System Details:
 
-Device Specification:\
+Device Specification:
 
-Processor: Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz   2.90 GHz\
-Installed RAM: 16.0 GB (15.9 GB usable)\
-System Type: 64-bit operating system, x64-based processor\
-
-
-Windows Specification:\
-
-Edition: Windows 10 Pro\
+Processor: Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz   2.90 GHz
+Installed RAM: 16.0 GB (15.9 GB usable)
+System Type: 64-bit operating system, x64-based processor
 
 
-Data Source (for Language Translation Task):\
+Windows Specification:
+
+Edition: Windows 10 Pro
+
+
+Data Source (for Language Translation Task):
 
 'Tab-delimited Bilingual Sentence Pairs' (English to French) from ManyThings.org
