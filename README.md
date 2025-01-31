@@ -3,13 +3,12 @@ Fine tune an LSTM based NMT Model
 #Brief Introduction: 
  Neural machine translation (NMT) uses Deep learning (DL) to translate text from one language to another. It is a powerful 
  state-of-art language translation. In this task, a LSTM-based NMT model is built to translate the text from one to another 
- language. Data Source: 'Tab-delimited Bilingual Sentence Pairs' (English to French) from ManyThings.org
-
+ language. Data Source: 'Tab-delimited Bilingual Sentence Pairs' (English to French) from ManyThings.org.	
 Steps:
-A. Load Data
+A. Load Data	
 B. Data Preprocessing
    Process: By converting characters to lowercase, removing punctuation marks, and replacing unicode characters with their 
-  ASCII equivalents.
+  ASCII equivalents.	
 C. Evaluating the maximum length of both English and French phrases. 
    Significance: This step will determine the lengths of the sequences that will be the input to and output from the model.
 D. Fitting Tokenizer to the phrases and generating padded sequences
