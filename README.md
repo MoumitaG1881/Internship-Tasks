@@ -14,7 +14,7 @@ C. Evaluating the maximum length of both English and French phrases.\
 D. Fitting Tokenizer to the phrases and generating padded sequences\
 E. Determining vocabulary length\
 F. Adding layers\
-   Brief description:
+   Brief description:\
    * Embedding layer followed by an LSTM layer: To encode English phrases input to the model.\
    * RepeatVector layer: To reshape the output from the first LSTM layer that acts as an input to the second LSTM layer.\
    * Second LSTM layer: To decode the phrases into their French equivalents (as the task is to translate English to 
@@ -31,9 +31,8 @@ H. Training and Validation Accuracy Plot\
    Description: x-axis- Number of Epochs, y-axis- Accuracy\
    Note: This part is not mandatory (if you are not interested in seeing the graphical presentation of training and 
    validation accuracy)\
-I. Validating the model
-   Brief Description: Some reserved phrases are used to validate the model.
-J. Test the model: Translation from English to French
+I. Validating the model\
+   Brief Description: Some reserved phrases are used to validate the model.\
+J. Test the model: Translation from English to French\
    Note: The model translation task can be tested by putting the sentence (or string of words) of your desire within the 
    single inverted comma.
-
