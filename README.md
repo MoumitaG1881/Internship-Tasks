@@ -8,13 +8,13 @@ Steps:\
 A. Load Data\
 B. Data Preprocessing\
    Process: By converting characters to lowercase, removing punctuation marks, and replacing unicode characters with their 
-   ASCII equivalents.\	
+   ASCII equivalents.\
 C. Evaluating the maximum length of both English and French phrases.\
    Significance: This step will determine the lengths of the sequences that will be the input to and output from the model.\
 D. Fitting Tokenizer to the phrases and generating padded sequences\
 E. Determining vocabulary length\
 F. Adding layers\
-   Brief description:\
+   Brief description:
    * Embedding layer followed by an LSTM layer: To encode English phrases input to the model.\
    * RepeatVector layer: To reshape the output from the first LSTM layer that acts as an input to the second LSTM layer.\
    * Second LSTM layer: To decode the phrases into their French equivalents (as the task is to translate English to 
